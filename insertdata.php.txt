@@ -1,0 +1,31 @@
+<?php 
+	include "config.php";
+	// REGISTER USER
+	
+
+	  
+	    $name = mysqli_real_escape_string($connect, $_POST['name']);
+	    $email = mysqli_real_escape_string($connect, $_POST['email']);
+	    $address = mysqli_real_escape_string($connect, $_POST['address']);
+	    $phone = mysqli_real_escape_string($connect, $_POST['phone']);
+ 	    $password = mysqli_real_escape_string($connect, $_POST['password']);
+	    $licence = mysqli_real_escape_string($connect, $_POST['licence']);
+	    $card = mysqli_real_escape_string($connect, $_POST['card']);
+	  
+	 
+	        $query = "INSERT INTO drivers_users (name, email, address, phone, password, licence, card)
+	  			  VALUES('$name', '$email','$address', '$phone', '$password','$licence','$card')";
+	    $results = mysqli_query($connect, $query);
+	    if($results>0)
+	    {
+	        echo "user added successfully";
+	    }
+	    
+	    
+	
+
+	
+
+	    
+	    
+	    ?>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\FALANA'S MACHINE\\3D Objects\\FLUTTER PROJECTS\\bloomzon\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FALANA'S MACHINE\\.gradle\\caches\\transforms-2\\files-2.1\\74fd6c1682c35662f30882eb6e4e46ee\\jetified-picture_library-v2.6.1\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "343"
+                    }
+                }
+            ]
+        }
+    ]
+}
